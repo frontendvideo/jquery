@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "click" method | basic</title>
+        <style>p:hover{cursor: pointer;}</style>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "click" method | basic</h1>
+        <p>Click Me</p>
+        <p>Click Me</p>
+        <p>Click Me</p>
+
+        <script>
+            //bind a click event handler for every paragraph
+            $('p').on('click', function () {
+                //this alert will happen for every paragraph click
+                alert('You clicked a paragraph element');
+            });
+        </script>
+    </body> 
+</html>
