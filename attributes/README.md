@@ -7,3 +7,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ## [Using the "removeClass" method](#remove-class)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+## [Using the "css" method](#css)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
