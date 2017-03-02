@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "toggle" method | basic</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "toggle" method | basic</h1>
+        
+        <button>Toggle the paragraph</button>
+
+        <p>Hello!</p>
+
+        <script>
+            //when the button is clicked
+            $('button').click(function () {
+                //toggle the paragraph
+                $('p').toggle();
+            }); 
+        </script>
+        <style>
+        p{
+            padding: 20px;
+            background-color: #ededed;
+            border: 1px solid #ccc;
+            font-family: "HelveticaNeue-Light";
+            font-weight: 700;
+        }
+        </style>
+    </body> 
+</html>
