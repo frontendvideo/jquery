@@ -7,3 +7,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ## [Using the "click" method](#click-method)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+## [Using the "off" method](#off-method)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
