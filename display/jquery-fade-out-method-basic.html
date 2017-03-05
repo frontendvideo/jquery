@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "fadeOut" method | Basic</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "fadeOut" method | Basic</h1>
+
+        <button id="fadeOut">Fade the paragraph in</button>
+
+        <button id="refresh">Refresh</button>
+
+        <p>Hello!</p>
+
+        <script>
+            //when the fadeOut button is clicked
+            $('button#fadeOut').click(function () {
+                //fadeOut the paragraph
+                $('p').fadeOut();
+            });
+
+            //when the refresh button is clicked
+            $('button#refresh').click(function () {
+                //refresh the page
+                window.location.reload();
+            });
+        </script>
+        <style>
+        p{
+            
+            padding: 20px;
+            background-color: #ededed;
+            border: 1px solid #ccc;
+            font-family: "HelveticaNeue-Light";
+            font-weight: 700;
+        }
+        </style>
+    </body> 
+</html>
