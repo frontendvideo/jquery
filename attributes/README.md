@@ -11,3 +11,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ## [Using the "css" method](#css)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+## [Using the "toggleClass" method](#toggle-class)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
