@@ -2,11 +2,11 @@
     <html> 
     <head> 
         <meta charset="UTF-8"> 
-        <title>jQuery "hide" method | Basic</title>
+        <title>jQuery "hide" method | Advanced</title>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     </head>   
     <body>
-        <h1>jQuery "hide" method | Basic</h1>
+        <h1>jQuery "hide" method | Advanced</h1>
 
         <button id="hide">Hide the paragraph</button>
 
@@ -14,11 +14,29 @@
 
         <p>Hello!</p>
 
+        <style>
+        p.done {
+            color: #fff;
+            background-color: green;
+        }
+        </style>
+
         <script>
             //when the hide button is clicked
             $('button#hide').click(function () {
+                var $p = $('p');
+
                 //hide the paragraph
-                $('p').hide();
+                //with options
+                $p.hide({
+                        duration: 2000,
+                        easing: 'linear',
+                        complete: function () {
+                            $p
+                            .text('Animation complete!')
+                            .addClass('done');
+                    } 
+                });
             });
 
             //when the refresh button is clicked
