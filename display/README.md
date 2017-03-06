@@ -10,6 +10,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
+## [Using the "hide" method](#hide)
+
+### **hide** *basic*
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+### **hide** *advanced*
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
 ## [Using the "toggle" method](#toggle)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

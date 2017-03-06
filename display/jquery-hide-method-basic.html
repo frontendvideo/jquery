@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "hide" method | Basic</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "hide" method | Basic</h1>
+
+        <button id="show">Hide the paragraph</button>
+
+        <button id="refresh">Refresh</button>
+
+        <p>Hello!</p>
+
+        <script>
+            //when the show button is clicked
+            $('button#show').click(function () {
+                //hide the paragraph
+                $('p').hide();
+            });
+
+            //when the refresh button is clicked
+            $('button#refresh').click(function () {
+                //refresh the page
+                window.location.reload();
+            });
+        </script>
+        <style>
+        p{
+            
+            padding: 20px;
+            background-color: #ededed;
+            border: 1px solid #ccc;
+            font-family: "HelveticaNeue-Light";
+            font-weight: 700;
+        }
+        </style>
+    </body> 
+</html>
