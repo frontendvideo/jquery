@@ -1,13 +1,13 @@
-# Binding Event Handlers Using jQuery
+# jQuery Event Handlers
 
-## [Using the "on" method](#on-method)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-## [Using the "click" method](#click-method)
+## [Using the "on" method](#on)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-## [Using the "off" method](#off-method)
+## [Using the "click" method](#click)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+## [Using the "off" method](#off)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
