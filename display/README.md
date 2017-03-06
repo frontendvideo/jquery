@@ -1,5 +1,15 @@
 # Managing Display Using jQuery
 
+## [Using the "show" method](#show)
+
+### **show** *basic*
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+### **show** *advanced*
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
 ## [Using the "toggle" method](#toggle)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

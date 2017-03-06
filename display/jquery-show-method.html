@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "show" method | Advanced</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "show" method | Advanced</h1>
+
+        <button id="show">Show the paragraph</button>
+
+        <button id="refresh">Refresh</button>
+
+        <p style="display: none;">Hello!</p>
+
+        <style>
+        p.done {
+            color: #fff;
+            background-color: green;
+        }
+        </style>
+
+        <script>
+            //when the fadeIn button is clicked
+            $('button#show').click(function () {
+                var $p = $('p');
+
+                //show the paragraph
+                //with options
+                $p.show({
+                        duration: 2000,
+                        easing: 'linear',
+                        complete: function () {
+                            $p
+                            .text('Animation complete!')
+                            .addClass('done');
+                    } 
+                });
+            });
+
+            //when the refresh button is clicked
+            $('button#refresh').click(function () {
+                //refresh the page
+                window.location.reload();
+            });
+        </script>
+        <style>
+        p{
+            
+            padding: 20px;
+            background-color: #ededed;
+            border: 1px solid #ccc;
+            font-family: "HelveticaNeue-Light";
+            font-weight: 700;
+        }
+        </style>
+    </body> 
+</html>
