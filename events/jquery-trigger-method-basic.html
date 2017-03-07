@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "trigger" method | basic</title>
+        <style>p:hover{cursor: pointer;}</style>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "trigger" method | basic</h1>
+
+        <button id="trigger">Trigger click event on all paragraphs</button>
+
+        <button id="triggerFirst">Trigger click event on the first paragraph</button>
+
+        <button id="refresh">Refresh</button>
+
+        <p>Click Me</p>
+        <p>Click Me</p>
+        <p>Click Me</p>
+
+        <script>
+            //bind a click event handler for every paragraph
+            $('p').click(function () {
+                $(this).text('I was clicked');
+            });
+
+            //when the trigger button is clicked
+            $('#trigger').click(function () {
+                //trigger the click events on all paragraphs
+                $('p').trigger('click');
+            });
+
+            //when the trigger first button is clicked
+            $('#triggerFirst').click(function () {
+                //trigger the click event on the first paragraph
+                $('p').eq(0).trigger('click');
+            });
+
+            //when the refresh button is clicked
+            $('#refresh').click(function () {
+                //refresh the page
+                window.location.reload();
+            });
+        </script>
+    </body> 
+</html>

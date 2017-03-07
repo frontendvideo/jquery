@@ -11,3 +11,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ## [Using the "off" method](#off)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+## [Using the "trigger" method](#trigger)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
