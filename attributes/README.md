@@ -12,6 +12,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
+## [Using the "css" method (Advanced)](#css-advanced)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
 ## [Using the "toggleClass" method](#toggle-class)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
