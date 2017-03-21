@@ -1,3 +1,5 @@
+[![jQuery Logo](https://www.frontendvideo.org/wp-content/uploads/jquery-logo-200-200x160.png)](https://www.frontendvideo.org/category/jquery/)
+
 # Managing HTML attributes Using jQuery
 
 ## [Using the "addClass" method](#add-class)
