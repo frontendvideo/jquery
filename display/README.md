@@ -15,7 +15,7 @@ Drag the following file into a browser: ***jquery-show-method-basic.html*** .
 ### **show** *advanced*
 
 #### Code examples for the post: jQuery show (advanced)
- - https://www.frontendvideo.org/jquery/show-advanc
+ - https://www.frontendvideo.org/jquery/show-advanced
 
 ### How to run the example code:
 
