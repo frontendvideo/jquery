@@ -1,17 +1,19 @@
+[![jQuery Logo](https://www.frontendvideo.org/wp-content/uploads/jquery-logo-200-200x160.png)](https://www.frontendvideo.org/category/jquery/)
+
 # jQuery Event Handlers
-
-## [Using the "on" method](#on)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-## [Using the "click" method](#click)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ## [Using the "off" method](#off)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+### Code examples for the post: jQuery off - https://www.frontendvideo.org/jquery/off/
+
+### How to run the example code:
+
+Drag the following file into a browser: ***jquery-off-method.html*** .
 
 ## [Using the "trigger" method](#trigger)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+### Code examples for the post: How do I use the jQuery trigger Method ? - https://www.frontendvideo.org/jquery/trigger-method/
+
+### How to run the example code:
+
+Drag the following file into a browser: ***jquery-trigger-method-basic.html*** .
